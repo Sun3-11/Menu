@@ -3,6 +3,7 @@ import Categories from "./component/Category";
 import Header from "./component/Header";
 import ItemsList from "./component/ItemsList";
 import Navbar from "./component/Navbar";
+import './index.css'; 
 
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState("الكل");
